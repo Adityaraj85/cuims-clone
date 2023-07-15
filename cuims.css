@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.header img{
+    align-items: center;
+    margin-top: 50px;
+}
+header{
+    width: auto;
+    height:50%;
+    background-color: #fdfdfdb6;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    width:100%;
+}
+
+.center{
+    max-width:1425px;
+    width:100%;
+    background:#da1010;
+    min-height:300px;
+    height:45%;
+    float: left;
+    
+    
+    }
+.d1 {
+    margin-top: -10%;
+    margin-left: 39px;
+    width: 303px;
+    float: left;
+    height: 330px;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #111;
+    border: 1px solid #ececed;
+    background: #fff;
+}
+.d1 .para{
+    min-height: 140px;
+}
+.d1 span{
+    display: inline-block;
+}
+.d1 span img{
+    width: auto;
+	height: 60px;
+}
+.d1 h3{
+    font-size: 20px;
+	font-weight: bold;
+	color: #111;
+}
+.d1 a{
+    font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	background: #da1010;
+	padding: 9px 17px;
+	text-decoration: none;
+	border-radius: 30px;
+}
+.d1 a:hover{
+    text-decoration: none;
+	color: #fb0909;
+	background: #f6f2f2
+}
+footer{
+    width: auto;
+    height:auto;
+    background-color: #df1010;
+    text-align: center;
+}
+footer p{
+    color: yellow;
+
+}
+footer h4{
+    color:yellow;
+    
+}
+footer h4:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    
+}
+                                @media only screen and (max-width: 1385px){
+                                    .d1{
+                                          width: 280px;
+                                    }
+
+                                }
+                                @media only screen and (max-width: 1300px){
+                                    .d1{
+                                        
+                                        margin-left: 20px;
+                                        width: 280px;
+                                        
+                                    }
+
+                                }
+                                @media only screen and (max-width: 1250px){
+                                    .d1{
+                                        
+                                        margin-left: 20px;
+                                        width: 260px;
+                                        
+                                    }
+
+                                }
+                                @media only screen and (max-width: 1150px){
+                                    .d1{
+                                        
+                                        margin-left: 20px;
+                                        width: 240px;
+                                        
+                                    }
+
+                                }
+                                
+                                @media only screen and (max-width: 1100px){
+                                    
+                                    .center{
+                                        height:90%;
+                                        min-height:700px;
+                                    }
+                                    .d1{
+                                        margin-left: 20px;
+                                    }
+                                    
+                                    .d2 .d1{
+                                        margin-top: -12%;
+                                        
+                                        width: 460px;
+                                        
+                                     }
+                                     .d3 .d1{
+                                        margin-top: 5%;
+                                        width: 465px;
+                                     }
+                                     
+                                }
+                                @media only screen and (max-width: 990px){
+                                    
+                                    .center{
+                                        height:90%;
+                                        min-height:700px;
+                                    }
+                                    .d1{
+                                        margin-left: 30px;
+                                        margin-right: 0px;
+                                        margin-bottom: 0px;
+                                    }
+                                    
+                                    .d2 .d1{
+                                        margin-top: -15%;
+                                        width: 380px;
+                                        
+                                     }
+                                     .d3 .d1{
+                                        margin-top: 5%;
+                                        width: 380px;
+                                     }
+                                     
+                                }
+                                @media only screen and (max-width: 890px){
+                                    
+                                    .center{
+                                        height:90%;
+                                        min-height:700px;
+                                    }
+                                    .d1{
+                                        margin-left: 20px;
+                                        margin-right: 0px;
+                                        margin-bottom: 0px;
+                                        
+                                    }
+                                    
+                                    .d2 .d1{
+                                        margin-top: -15%;
+                                        width: 350px;
+                                        
+                                     }
+                                     .d3 .d1{
+                                        margin-top: 5%;
+                                        width: 350px;
+                                     }
+                                     
+                                }
+                                @media only screen and (max-width: 800px){
+                                    
+                                    .center{
+                                        height:90%;
+                                        min-height:1000px;
+                                    }
+                                    .d1{
+                                        margin-left: 20px;
+                                        margin-right: 0px;
+                                        margin-bottom: 0px;
+                                        font-size: 14px;
+                                        
+                                        
+                                    }
+                                    .d1 .para{
+                                        min-height: 70px;
+                                    }
+                                    
+                                    .d2 .d4 .d1{
+                                        margin-top: -15%;
+                                        width: 700px;
+                                        height: 250px;
+
+                                        
+                                     }
+                                     .d2 .d5 .d1{
+                                        margin-top: 5%;
+                                        width: 700px;
+                                        height: 250px;
+
+                                     }
+                                     .d3 .d1{
+                                        margin-top: 5%;
+                                        width: 700px;
+                                        height: 250px;
+                                     }
+                                     
+                                }
